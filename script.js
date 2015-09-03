@@ -19,18 +19,14 @@ $(function() {
 
   //Contact fades
   $("#contact").on("click", function() {
-    $("#gitHub").fadeToggle(500, function() {
-    });
-    $("#twitter").fadeToggle(500, function() {
-    });
-    $("#linkedin").fadeToggle(500, function() {
-    });
+    $("#gitHub").fadeToggle(500, function() {});
+    $("#twitter").fadeToggle(500, function() {});
+    $("#linkedin").fadeToggle(500, function() {});
   });
   //Project fades
 
   $("#projects").on("click", function() {
-    $("#tictactoe").fadeToggle(500, function() {
-    });
+    $("#tictactoe").fadeToggle(500, function() {});
 
 
   });
@@ -54,6 +50,6 @@ $(function() {
   });
   //add click handler for #aboutMe fade out about me fade in row
 });
-$("#tictactoe").on("click", function(){
+$("#tictactoe").on("click", function() {
   window.location.href = "tic-tac-toe/tictactoe.html";
 });

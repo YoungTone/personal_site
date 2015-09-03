@@ -20,15 +20,23 @@ body {
   padding-top: 10px;
   float: left;
   border-radius: 2%;
+  position: relative;
+}
+.textStyle{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 #container {
   background: teal;
-  height: 850px;
+  height: 780px;
   width: 850px;
   padding-top: 20px;
   padding-bottom: 20px;
   border-color: black;
   margin: 0 auto;
+  position: relative;
   /*margin-left: auto;
   margin-right: auto;*/
 }
@@ -42,7 +50,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
-  text: black;
+  color: black;
   padding-top: 10px;
   float: left;
 }
@@ -56,6 +64,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
+  color: black;
   padding-top: 10px;
   float: left;
 }
@@ -69,6 +78,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
+  color: black;
   padding-top: 10px;
   float: left;
 }
@@ -82,6 +92,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
+  color: black;
   padding-top: 10px;
   float: left;
 }
@@ -95,6 +106,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
+  color: black;
   padding-top: 10px;
   float: left;
 }
@@ -132,6 +144,8 @@ body {
   text-align: center;
   /*height: 100px;*/
   width: 100%;
+  position: absolute;
+  bottom: 0;
   /*margin: 0 auto;*/
   /*background-size: ;*/
   /*background-position: center;*/
