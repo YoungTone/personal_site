@@ -1,15 +1,6 @@
 body {
   background-color: black;
-}
-#container {
-  background: teal;
-  height: 850px;
-  width: 850px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-color: black;
-  margin-left: auto;
-  margin-right: auto;
+  height: 100%;
 }
 .row {
   height: 120px;
@@ -29,6 +20,17 @@ body {
   padding-top: 10px;
   float: left;
   border-radius: 2%;
+}
+#container {
+  background: teal;
+  height: 850px;
+  width: 850px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-color: black;
+  margin: 0 auto;
+  /*margin-left: auto;
+  margin-right: auto;*/
 }
 #about {
   width: 23.8%;
@@ -104,43 +106,33 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
-#gitHub {
+#gitHub, #linkedin, #twitter {
   background-image: url(assets/gitHub.png);
   height: 80%;
-  width: 80%;
   background-size: 100px 100px;
   background-repeat: no-repeat;
   background-position: center;
 }
 #linkedin {
   background-image: url(assets/linkedin.png);
-  height: 80%;
-  width: 80%;
-  background-size: 100px 100px;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 #twitter {
   background-image: url(assets/twitter.png);
-  height: 80%;
-  width: 80%;
-  background-size: 100px 100px;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 #tictactoe {
   background-image: url(assets/tictactoe.jpg);
   height: 80%;
-  width: 80%;
   background-size: 100px 100px;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #statusBar {
-  background-image: url(assets/statusBar.jpg)
-  height: 80%;
-  width: 80%;
-  background-size: ;
-  background-position: center;
+  /*background-image: url(assets/gitHub.png)*/
+  text-align: center;
+  /*height: 100px;*/
+  width: 100%;
+  /*margin: 0 auto;*/
+  /*background-size: ;*/
+  /*background-position: center;*/
 }
