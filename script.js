@@ -4,12 +4,26 @@ $(function() {
   $("#twitter").hide();
   $("#linkedin").hide();
   $("#tictactoe").hide();
+  $("#aboutMeText").hide();
 
   $("#about").on("click", function() {
     $(".row").fadeToggle(500, function() {
-      $("#aboutMe").fadeIn(500);
+      $("#aboutMe").fadeIn(500, function(){
+        $("#aboutMeText").show();
+        $('.tlt').textillate();
+        $('.tlt').textillate({ in: { effect: 'pulse' }
+      });
+      });
     });
   });
+
+  // $("#aboutMe").on("hover", function(){
+  //   $("aboutMeText").fadein(500, function(){
+  //     $('.tlt').textillate();
+  //     $('.tlt').textillate({ in: { effect: 'pulse' }
+  //   });
+  //   });
+  // });
 
   $("#aboutMe").on("click", function() {
     $("#aboutMe").fadeToggle(300, function() {
@@ -18,7 +32,7 @@ $(function() {
   });
 
   //Contact fades
-  $("#contact").on("click", function() {
+  $("#links").on("click", function() {
     $("#gitHub").fadeToggle(500, function() {});
     $("#twitter").fadeToggle(500, function() {});
     $("#linkedin").fadeToggle(500, function() {});
@@ -48,8 +62,23 @@ $(function() {
   $("#linkedin").on("click", function() {
     window.location.href = "https://www.linkedin.com/in/anthonyschwartz";
   });
-  //add click handler for #aboutMe fade out about me fade in row
-});
+  //tictactoe Link
 $("#tictactoe").on("click", function() {
   window.location.href = "tic-tac-toe/tictactoe.html";
+
+
+
+
+
+});
+
+
+// $(function () {
+//     $('.tlt').textillate();
+//     $('.tlt').textillate({ in: { effect: 'pulse' } });
+// });
+
+
+
+
 });

@@ -1,6 +1,7 @@
 body {
   background-color: black;
   height: 100%;
+  font-family: sans-serif;
 }
 .row {
   height: 120px;
@@ -82,17 +83,18 @@ body {
   padding-top: 10px;
   float: left;
 }
-#contact {
+#links {
   width: 23.8%;
   height: 90%;
   margin: 0px 0px 4px 7px;
   background: teal;
-  background-image: url(assets/contact.ico);
+  background-image: url(assets/links.ico);
   background-size: 50px 50px;
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
   color: black;
+
   padding-top: 10px;
   float: left;
 }
@@ -149,4 +151,12 @@ body {
   /*margin: 0 auto;*/
   /*background-size: ;*/
   /*background-position: center;*/
+}
+#aboutMeText{
+  position: relative;
+  top: 133px;
+  left: 50px;
+  width: 570px;
+  font-size: 28px;
+
 }
