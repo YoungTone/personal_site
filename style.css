@@ -55,6 +55,20 @@ body {
   padding-top: 10px;
   float: left;
 }
+#email {
+  width: 23.8%;
+  height: 90%;
+  margin: 0px 0px 4px 7px;
+  background: teal;
+  background-image: url(assets/email.ico);
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: black;
+  padding-top: 10px;
+  float: left;
+}
 #projects {
   width: 23.8%;
   height: 90%;
@@ -120,10 +134,10 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
-#gitHub, #linkedin, #twitter {
+#gitHub, #linkedin, #twitter{
   background-image: url(assets/gitHub.png);
   height: 80%;
-  background-size: 100px 100px;
+  background-size: 60px 60px;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -132,6 +146,8 @@ body {
 }
 #twitter {
   background-image: url(assets/twitter.png);
+}
+
 }
 #tictactoe {
   background-image: url(assets/tictactoe.jpg);

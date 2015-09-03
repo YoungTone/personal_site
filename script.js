@@ -72,11 +72,9 @@ $("#tictactoe").on("click", function() {
 
 });
 
-
-// $(function () {
-//     $('.tlt').textillate();
-//     $('.tlt').textillate({ in: { effect: 'pulse' } });
-// });
+$("#email").on("click", function(){
+  window.location.href = "mailto:anthonyschwartzcode@gmail.com";
+});
 
 
 
