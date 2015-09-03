@@ -1,0 +1,131 @@
+body{
+  background-color: black;
+}
+#container {
+  background:teal;
+  height: 850px;
+  width: 850px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-color: black;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+.row {
+  height: 120px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:10px;
+  width: 93%;
+  text: black;
+}
+
+.box {
+  width: 24%;
+  height: 80%;
+  margin: 4px 4px 4px 4px;
+  background: teal;
+  color: teal;
+  text-align: center;
+  padding-top: 10px;
+  float: left;
+    border-radius: 2%;
+
+}
+
+
+#about{
+  width: 23.8%;
+  height: 90%;
+  margin: 0px 0px 4px 7px;
+  background: teal;
+  background-image: url(assets/about.ico);
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  text: black;
+  padding-top: 10px;
+  float: left;
+
+}
+
+#projects{
+width: 23.8%;
+height: 90%;
+margin: 0px 0px 4px 7px;
+background: teal;
+background-image: url(assets/projects.ico);
+background-size: 50px 50px;
+background-repeat: no-repeat;
+background-position: center;
+text-align: center;
+padding-top: 10px;
+float: left;
+
+}
+
+
+
+#blog{
+width: 23.8%;
+height: 90%;
+margin: 0px 0px 4px 7px;
+background: teal;
+background-image: url(assets/blog.ico);
+background-size: 50px 50px;
+background-repeat: no-repeat;
+background-position: center;
+text-align: center;
+padding-top: 10px;
+float: left;
+
+}
+
+#contact{
+width: 23.8%;
+height: 90%;
+margin: 0px 0px 4px 7px;
+background: teal;
+background-image: url(assets/contact.ico);
+background-size: 50px 50px;
+background-repeat: no-repeat;
+background-position: center;
+text-align: center;
+padding-top: 10px;
+float: left;
+
+}
+
+#woah{
+width: 23.8%;
+height: 90%;
+margin: 0px 0px 4px 7px;
+background: teal;
+background-image: url(assets/woah.ico);
+background-size: 50px 50px;
+background-repeat: no-repeat;
+background-position: center;
+text-align: center;
+padding-top: 10px;
+float: left;
+
+}
+
+#aboutMe{
+  background-image: url(assets/aboutMe.jpg);
+  height: 80%;
+  width: 80%;
+  background-size: 600px 400px;
+  background-repeat:no-repeat;
+  background-position: center;
+}
+#statusBar{
+  background-image: url(assets/statusBar.jpg)
+  height: 80%;
+  width: 80%;
+  background-size: 800px 200px;
+  background-position: center;
+}
