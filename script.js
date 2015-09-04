@@ -42,8 +42,9 @@ $(function() {
   $("#projects").on("click", function() {
     $("#tictactoe").fadeToggle(500, function() {});
 
-
+    
   });
+
 
 
   //Blog Link
