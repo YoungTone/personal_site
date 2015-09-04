@@ -144,11 +144,7 @@ body {
 #linkedin {
   background-image: url(assets/linkedin.png);
 }
-#twitter {
-  background-image: url(assets/twitter.png);
-}
-
-}
+ 
 #tictactoe {
   background-image: url(assets/tictactoe.jpg);
   height: 80%;
